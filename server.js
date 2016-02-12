@@ -6,7 +6,7 @@ http.createServer(function(req, res){
 	var html = [];
 	html.push('<h1>Olá mundo</h1>'); 
 
-	console.log(res);
+
 
 	res.end(html.join(''));
 
